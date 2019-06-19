@@ -11,24 +11,24 @@ Install with CocoaPods by adding the following to your Podfile:
 #### Basic Examples
 
 - For simple loader:   
-    `iLoader.shared.show()`
+   `iLoader.shared.show()`
 
 - To hide the loader:  
-    `iLoader.shared.hide()`
+   `iLoader.shared.hide()`
 
 #### To modify loader use following properties:
 
-- To change to loader color:
-`iLoader.shared.loaderTintColor = .red`
+- To change to loader color:  
+   `iLoader.shared.loaderTintColor = .red`
 
-- To set the title:
-`iLoader.shared.loaderTitle = "Loading..."`
+- To set the title:  
+   `iLoader.shared.loaderTitle = "Loading..."`
 
-- To set the title text color:
-`iLoader.shared.loaderTitleTextColor = .red`
+- To set the title text color:  
+   `iLoader.shared.loaderTitleTextColor = .red`
 
-- To set the background color of loader: 
-`iLoader.shared.loaderBackgroundColor = .black`
+- To set the background color of loader:  
+   `iLoader.shared.loaderBackgroundColor = .black`
 
-- To hide the loader after some time interval:
-`iLoader.shared.showForTimeInterval(timeInterval: 5)`
+- To hide the loader after some time interval:  
+   s`iLoader.shared.showForTimeInterval(timeInterval: 5)`
