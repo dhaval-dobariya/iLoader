@@ -31,4 +31,4 @@ Install with CocoaPods by adding the following to your Podfile:
    `iLoader.shared.loaderBackgroundColor = .black`
 
 - To hide the loader after some time interval:  
-   s`iLoader.shared.showForTimeInterval(timeInterval: 5)`
+   `iLoader.shared.showForTimeInterval(timeInterval: 5)`
