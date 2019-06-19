@@ -10,12 +10,11 @@ Install with CocoaPods by adding the following to your Podfile:
 
 #### Basic Examples
 
-- For simple loader
-
-`iLoader.shared.show()`
+- For simple loader:
+    `iLoader.shared.show()`
 
 - To hide the loader:
-`iLoader.shared.hide()`
+    `iLoader.shared.hide()`
 
 #### To modify loader use following properties:
 
