@@ -11,6 +11,7 @@ Install with CocoaPods by adding the following to your Podfile:
 #### Basic Examples
 
 - For simple loader
+
 `iLoader.shared.show()`
 
 - To hide the loader:
