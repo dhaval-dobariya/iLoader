@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="V4E-wI-nqo">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iLoader_Tester" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sharelock_holmes" translatesAutoresizingMaskIntoConstraints="NO" id="2u0-8g-QEb">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tJi-gk-RwB">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="oDv-j5-12R">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4as-5a-gdg">
+                                <rect key="frame" x="0.5" y="233.5" width="413" height="483"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sJS-oA-GuV">
+                                        <rect key="frame" x="20" y="31" width="373" height="332"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="th9-4g-ExC">
+                                                <rect key="frame" x="54.5" y="25" width="264" height="42"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.3984375" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                                <inset key="contentEdgeInsets" minX="20" minY="8" maxX="20" maxY="8"/>
+                                                <state key="normal" title="Show Standard Loader">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="showStandardLoaderTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ksH-Nb-ewg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ao4-aV-hd1">
+                                                <rect key="frame" x="89.5" y="97" width="194" height="42"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.3984375" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                                <inset key="contentEdgeInsets" minX="20" minY="8" maxX="20" maxY="8"/>
+                                                <state key="normal" title="Show with Title">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="showLoaderWithTitleTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0KI-7z-vrm"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wL-pP-GzI">
+                                                <rect key="frame" x="22" y="169" width="329" height="42"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.3984375" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                                <inset key="contentEdgeInsets" minX="20" minY="8" maxX="20" maxY="8"/>
+                                                <state key="normal" title="Show with Backgrund &amp; Title">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="showLoaderWithBGAndTitleTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="36d-lS-5hP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qbS-Jx-7oz">
+                                                <rect key="frame" x="70.5" y="241" width="232" height="66"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.3984375" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="contentEdgeInsets" minX="20" minY="8" maxX="20" maxY="8"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment>
+                                                            <string key="content">Show with colored 
+Title &amp; Indicator</string>
+                                                            <attributes>
+                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <font key="NSFont" size="21" name="HelveticaNeue-Bold"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="showLoaderWithBGAndTitleTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b0W-FM-MTR"/>
+                                                    <action selector="showLoaderWithColoredTitleAndIndicatorTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MlP-9O-ccB"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="qbS-Jx-7oz" firstAttribute="top" secondItem="1wL-pP-GzI" secondAttribute="bottom" constant="30" id="0nt-xa-pwb"/>
+                                            <constraint firstItem="1wL-pP-GzI" firstAttribute="centerX" secondItem="sJS-oA-GuV" secondAttribute="centerX" id="BQp-Pf-gWx"/>
+                                            <constraint firstItem="qbS-Jx-7oz" firstAttribute="centerX" secondItem="sJS-oA-GuV" secondAttribute="centerX" id="OKe-zd-lkX"/>
+                                            <constraint firstItem="1wL-pP-GzI" firstAttribute="top" secondItem="ao4-aV-hd1" secondAttribute="bottom" constant="30" id="jiJ-5T-CYh"/>
+                                            <constraint firstItem="th9-4g-ExC" firstAttribute="centerX" secondItem="sJS-oA-GuV" secondAttribute="centerX" id="nWf-8A-Pda"/>
+                                            <constraint firstAttribute="bottom" secondItem="qbS-Jx-7oz" secondAttribute="bottom" constant="25" id="oR9-qu-foI"/>
+                                            <constraint firstItem="ao4-aV-hd1" firstAttribute="top" secondItem="th9-4g-ExC" secondAttribute="bottom" constant="30" id="xRR-R3-8s4"/>
+                                            <constraint firstItem="ao4-aV-hd1" firstAttribute="centerX" secondItem="th9-4g-ExC" secondAttribute="centerX" id="xcd-ld-kBG"/>
+                                            <constraint firstItem="th9-4g-ExC" firstAttribute="top" secondItem="sJS-oA-GuV" secondAttribute="top" constant="25" id="zMx-5v-TIy"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Loaders will stop after 3 seconds  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuT-CY-dWg">
+                                        <rect key="frame" x="35" y="20" width="311" height="23"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfs-S5-gw9">
+                                        <rect key="frame" x="80.5" y="421" width="252" height="42"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.3984375" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <inset key="contentEdgeInsets" minX="20" minY="8" maxX="20" maxY="8"/>
+                                        <state key="normal" title="Show for 10 Seconds">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="showLoaderFor10SecsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DFl-bV-jrl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fuT-CY-dWg" secondAttribute="trailing" constant="20" symbolic="YES" id="262-a1-3xo"/>
+                                    <constraint firstItem="fuT-CY-dWg" firstAttribute="top" secondItem="sJS-oA-GuV" secondAttribute="top" constant="-11" id="2HU-RV-iGX"/>
+                                    <constraint firstItem="Xfs-S5-gw9" firstAttribute="centerX" secondItem="sJS-oA-GuV" secondAttribute="centerX" id="32z-HF-uHa"/>
+                                    <constraint firstItem="sJS-oA-GuV" firstAttribute="width" secondItem="4as-5a-gdg" secondAttribute="width" multiplier="0.9" constant="1.3000000000000114" id="9hg-gD-df6"/>
+                                    <constraint firstItem="fuT-CY-dWg" firstAttribute="leading" secondItem="sJS-oA-GuV" secondAttribute="leading" constant="15" id="NVA-mr-Jb5"/>
+                                    <constraint firstItem="sJS-oA-GuV" firstAttribute="leading" secondItem="4as-5a-gdg" secondAttribute="leading" constant="20" id="dsW-bs-zLr"/>
+                                    <constraint firstItem="Xfs-S5-gw9" firstAttribute="top" secondItem="sJS-oA-GuV" secondAttribute="bottom" constant="58" id="fOq-xK-LCi"/>
+                                    <constraint firstAttribute="trailing" secondItem="sJS-oA-GuV" secondAttribute="trailing" constant="20" id="gF8-4t-kQL"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xfs-S5-gw9" secondAttribute="bottom" constant="20" id="gtJ-so-TSj"/>
+                                    <constraint firstItem="sJS-oA-GuV" firstAttribute="top" secondItem="4as-5a-gdg" secondAttribute="top" constant="31" id="uMx-Pd-bJ7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4as-5a-gdg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="31K-8X-vBx"/>
+                            <constraint firstItem="2u0-8g-QEb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="33J-hy-3CZ"/>
+                            <constraint firstItem="2u0-8g-QEb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5A1-03-Vn9"/>
+                            <constraint firstItem="tJi-gk-RwB" firstAttribute="leading" secondItem="2u0-8g-QEb" secondAttribute="leading" id="KAO-Zx-3Qp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2u0-8g-QEb" secondAttribute="bottom" id="Rup-po-wr9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2u0-8g-QEb" secondAttribute="trailing" id="bIr-rk-O6C"/>
+                            <constraint firstItem="tJi-gk-RwB" firstAttribute="top" secondItem="2u0-8g-QEb" secondAttribute="top" id="clb-As-pNd"/>
+                            <constraint firstItem="tJi-gk-RwB" firstAttribute="trailing" secondItem="2u0-8g-QEb" secondAttribute="trailing" id="lWH-Rs-ltX"/>
+                            <constraint firstItem="4as-5a-gdg" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="rAT-9K-SZu"/>
+                            <constraint firstItem="tJi-gk-RwB" firstAttribute="bottom" secondItem="2u0-8g-QEb" secondAttribute="bottom" id="wGu-P0-9bf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="Kj1-3B-qVd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944.92753623188412" y="18.75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oga-7H-mqB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V4E-wI-nqo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="G2e-D8-Chy">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Ndm-b0-q8R"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HCJ-Ye-TsV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="142" y="19"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sharelock_holmes" width="800" height="1009"/>
+    </resources>
+</document>
