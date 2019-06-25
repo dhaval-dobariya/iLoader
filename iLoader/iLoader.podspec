@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/dhaval-dobariya/iLoader.git", :tag => "#{s.version}" }
-  s.source_files  = "iLoader"
-  s.resources	= "iLoader/*.xib"
+  s.source_files  = "iLoader/iLoader"
+  s.resources	= "iLoader/iLoader/*.xib"
 
 end
