@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "iLoader"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "iLoader helps you to show Activity Loader/Indicator to your app user, while it processing something."
   s.description  = <<-DESC
 				   iLoader is a framework which help you to show Activity Loader/Indicator to inform your app user about something is going on. You can use iLoader while your app processing some data or fetching data using API calls, and so on.
