@@ -37,6 +37,7 @@ public class iLoader: UIView {
         }
         set {
             loaderColor = newValue
+            activityIndicator?.color = newValue
         }
     }
     
@@ -46,6 +47,7 @@ public class iLoader: UIView {
         }
         set {
             titleTextColor = newValue
+            titleLabel?.textColor = newValue
         }
     }
     
@@ -55,6 +57,16 @@ public class iLoader: UIView {
         }
         set {
             loaderContainerBGColor = newValue
+            
+            let titleExist = (title.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).count != 0)
+
+            if newValue != .clear || titleExist {
+                containerView?.backgroundColor = newValue.withAlphaComponent(0.4)
+            }
+            else {
+                containerView?.backgroundColor = newValue
+            }
+            
         }
     }
     
@@ -64,6 +76,7 @@ public class iLoader: UIView {
         }
         set {
             title = newValue
+            titleLabel?.text = newValue
         }
     }
     
